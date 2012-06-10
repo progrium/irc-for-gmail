@@ -31,4 +31,7 @@ of commands, type /help in the chat box.
 
 This project mostly wraps another standalone IRC client for Chrome. Most
 of the IRC client specific stuff is there. This app just packages it up
-to be used in Gmail.
+to be used in Gmail. 
+
+To contribute to the actual IRC client, make contributions here:
+https://github.com/progrium/ircv
