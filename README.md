@@ -4,6 +4,8 @@ This is an IRC client for Gmail. It's based around a Chrome app that
 uses the experimental socket support in Chrome. **It may stop working in
 a future version of Chrome as it is experimental!**
 
+<img src="https://img.skitch.com/20120609-3pfsdku9rjpphwu13tgicprcd.jpg" />
+
 ## Installing
 
 **Currently requires the dev channel version of Chrome, or Canary**
