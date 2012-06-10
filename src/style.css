@@ -1,0 +1,46 @@
+#irc-window {
+  background-color:#fff;
+  bottom:0px;
+  left:10px;
+  position:fixed;
+  padding:0px;
+  display:block !important;
+  z-index:9999999;
+}
+
+#irc-window-titlebar {
+  background-color:#222;
+  border: 1px solid #222;
+  color:#fff;
+  font-size:13px;
+  font-weight:bold;
+  padding:2px;
+  padding-top: 4px;
+  height:17px;
+  cursor:pointer;
+  font-family: arial, sans-serif;
+}
+
+#irc-window-titlebar img {
+  background: url(https://mail.google.com/mail/u/0/?ui=2&view=dim&iv=mjkstio3e8w4&it=ic) no-repeat -20px -80px;
+  width: 16px;
+  height: 16px;
+  float:right;
+}
+
+#irc-window-title {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#irc-container {
+  border: 1px solid #d9d9d9;
+  border-top: 0px none;
+  width: 598px;
+  height: 278px;
+  padding: 0px;
+}
+
+.alert {
+  background-color: #4787ED;
+}

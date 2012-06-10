@@ -1,0 +1,12 @@
+{
+  "name": "IRC for Gmail",
+  "description": "IRC client embedded in Gmail",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": { "128": "icon.png" },
+  "content_scripts": [ {
+     "matches": [ "https://mail.google.com/mail/*" ],
+     "js": ["jquery.js", "script.js"],
+     "css": ["style.css"]
+  } ]
+}
