@@ -6,7 +6,26 @@
   "icons": { "128": "icon.png" },
   "content_scripts": [ {
      "matches": [ "https://mail.google.com/mail/*" ],
-     "js": ["jquery.js", "script.js"],
-     "css": ["style.css"]
-  } ]
+     "js": ["src/jquery.js", "src/gmail.js"],
+     "css": ["src/gmail.css"]
+  } ],
+  "permissions": [
+    "experimental",
+    "windows",
+    "storage",
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["ircv/src/net.js", "ircv/src/background.js"]
+  },
+  "web_accessible_resources": [
+    "ircv/src/chat.js",
+    "ircv/src/irc.js",
+    "ircv/src/vendor/jquery.js",
+    "ircv/src/main.html",
+    "ircv/src/proxy.js",
+    "ircv/src/style.css",
+    "src/irc.html"
+  ]
+
 }

@@ -41,6 +41,7 @@
   padding: 0px;
 }
 
-.alert {
-  background-color: #4787ED;
+.irc-alert {
+  background-color: #4787ED !important;
+  border: 1px solid #4787ED !important;
 }
