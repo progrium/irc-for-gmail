@@ -1,0 +1,3 @@
+[submodule "ircv"]
+	path = ircv
+	url = https://github.com/progrium/ircv.git
